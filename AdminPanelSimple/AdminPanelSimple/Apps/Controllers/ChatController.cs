@@ -2,6 +2,7 @@
 
 namespace AdminPanelSimple.Apps.Controllers
 {
+
     public class ChatController : Controller
     {
         public ActionResult Index()

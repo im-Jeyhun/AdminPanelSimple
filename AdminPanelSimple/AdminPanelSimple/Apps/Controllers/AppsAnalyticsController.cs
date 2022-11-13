@@ -2,6 +2,7 @@
 
 namespace AdminPanelSimple.Apps.Controllers
 {
+
     public class AppsAnalyticsController : Controller
     {
         public ActionResult Customers()

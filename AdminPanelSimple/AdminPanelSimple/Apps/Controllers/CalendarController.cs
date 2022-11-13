@@ -2,6 +2,7 @@
 
 namespace AdminPanelSimple.Apps.Controllers
 {
+
     public class CalendarController : Controller
     {
         public ActionResult Index()
