@@ -4,7 +4,7 @@ namespace AdminPanelSimple.Dashboard.Controllers
 {
     public class EcommerceController : Controller
     {
-        public IActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
