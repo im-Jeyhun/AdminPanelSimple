@@ -99,25 +99,25 @@
 
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a asp-controller="home" asp-action="index" class="nav-link">Analytics</a>
+                                <a asp-controller="Analtyics" asp-action="index" class="nav-link">Analytics</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a asp-controller="Crypto" asp-action="Exchange" class="nav-link">Crypto</a>
+                                <a asp-controller="Crypto" asp-action="index" class="nav-link">Crypto</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="crm-index.html">CRM</a>
+                                <a asp-controller="CRM" asp-action="index" class="nav-link">CRM</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="projects-index.html">Project</a>
+                                <a asp-controller="Projects" asp-action="index" class="nav-link">Project</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="ecommerce-index.html">Ecommerce</a>
+                                <a asp-controller="Ecommerce" asp-action="index" class="nav-link" >Ecommerce</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="helpdesk-index.html">Helpdesk</a>
+                                <a asp-controller="Helpdesk" asp-action="index" class="nav-link" >Helpdesk</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="hospital-index.html">Hospital</a>
+                                <a asp-controller="Hospital" asp-action="index" class="nav-link" >Hospital</a>
                             </li><!--end nav-item-->
                         </ul><!--end nav-->
                     </div><!-- end Dashboards -->
@@ -452,16 +452,16 @@
                                 </li><!--end nav-item-->
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="apps-chat.html">Chat</a>
+                                    <a asp-controller="Chat" asp-action="index" class="nav-link">Chat</a>
                                 </li><!--end nav-item-->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="apps-contact-list.html">Contact List</a>
+                                    <a asp-controller="ContactList" asp-action="index" class="nav-link" >Contact List</a>
                                 </li><!--end nav-item-->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="apps-calendar.html">Calendar</a>
+                                    <a  asp-controller="Calendar" asp-action="index" class="nav-link" >Calendar</a>
                                 </li><!--end nav-item-->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="apps-invoice.html">Invoice</a>
+                                    <a  asp-controller="Invoice" asp-action="index" class="nav-link" >Invoice</a>
                                 </li><!--end nav-item-->
                             </ul><!--end navbar-nav--->
                         </div><!--end sidebarCollapse-->
@@ -734,31 +734,31 @@
                         </div>
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-profile.html">Profile</a>
+                                <a asp-controller="Profile" asp-action="index" class="nav-link">Profile</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-tour.html">Tour</a>
+                                <a asp-controller="Tour" asp-action="index"  class="nav-link" >Tour</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-timeline.html">Timeline</a>
+                                <a asp-controller="Timeline" asp-action="index"  class="nav-link">Timeline</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-treeview.html">Treeview</a>
+                                <a asp-controller="Treeview" asp-action="index"  class="nav-link">Treeview</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-starter.html">Starter Page</a>
+                                <a asp-controller="StarterPage" asp-action="index"  class="nav-link">Starter Page</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-pricing.html">Pricing</a>
+                                <a asp-controller="Pricing" asp-action="index"  class="nav-link">Pricing</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-blogs.html">Blogs</a>
+                                <a asp-controller="Blogs" asp-action="index"  class="nav-link">Blogs</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-faq.html">FAQs</a>
+                                <a asp-controller="Faq" asp-action="index"  class="nav-link">FAQs</a>
                             </li><!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="pages-gallery.html">Gallery</a>
+                                <a  asp-controller="Gallery" asp-action="index"  class="nav-link">Gallery</a>
                             </li><!--end nav-item-->
                         </ul><!--end nav-->
                     </div><!-- end Pages -->
@@ -1119,7 +1119,7 @@
 
         <!-- App js -->
         <script src="~/assets/js/app.js"></script>
-        @RenderSection("Scripts",false);
+        @RenderSection("Scripts",false)
 
     </body>
     <!--end body-->

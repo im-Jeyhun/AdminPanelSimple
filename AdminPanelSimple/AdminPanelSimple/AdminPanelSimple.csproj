@@ -7,9 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Apps\Controllers\" />
-    <Folder Include="Pages\Controllers\" />
-    <Folder Include="Pages\Views\" />
     <Folder Include="UiKit\Controllers\" />
     <Folder Include="UiKit\Views\" />
   </ItemGroup>
